@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct APITestApp: App {
+    let settings = UserSettings()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(settings)
         }
     }
 }

@@ -3,23 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DADCAF12B3214B3E1F99717 /* Pods_APITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11854D2F452411C488A9920A /* Pods_APITest.framework */; };
 		8464901125E136410026CD09 /* APITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464901025E136410026CD09 /* APITestApp.swift */; };
 		8464901325E136410026CD09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464901225E136410026CD09 /* ContentView.swift */; };
 		8464901525E136440026CD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8464901425E136440026CD09 /* Assets.xcassets */; };
 		8464901825E136450026CD09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8464901725E136450026CD09 /* Preview Assets.xcassets */; };
+		8464902525E13AE80026CD09 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464902425E13AE80026CD09 /* Theme.swift */; };
+		8464902825E142280026CD09 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464902725E142280026CD09 /* ProfileView.swift */; };
+		8464902B25E144CC0026CD09 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464902A25E144CC0026CD09 /* LoginViewModel.swift */; };
+		8464902E25E145200026CD09 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464902D25E145200026CD09 /* LoginResponse.swift */; };
+		8464903825E1487D0026CD09 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464903725E1487D0026CD09 /* History.swift */; };
+		8464904125E155A00026CD09 /* ServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464904025E155A00026CD09 /* ServerHandler.swift */; };
+		8464904525E1608E0026CD09 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464904425E1608E0026CD09 /* ProfileViewModel.swift */; };
+		8464904825E16AF70026CD09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464904725E16AF70026CD09 /* LoginView.swift */; };
+		8464905325E17F640026CD09 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464905225E17F640026CD09 /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11854D2F452411C488A9920A /* Pods_APITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37491B5130FBB9F5D2B617A7 /* Pods-APITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APITest.release.xcconfig"; path = "Target Support Files/Pods-APITest/Pods-APITest.release.xcconfig"; sourceTree = "<group>"; };
+		7933F5720CD012956AAB511B /* Pods-APITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APITest.debug.xcconfig"; path = "Target Support Files/Pods-APITest/Pods-APITest.debug.xcconfig"; sourceTree = "<group>"; };
 		8464900D25E136410026CD09 /* APITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8464901025E136410026CD09 /* APITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITestApp.swift; sourceTree = "<group>"; };
 		8464901225E136410026CD09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8464901425E136440026CD09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8464901725E136450026CD09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8464901925E136450026CD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8464902425E13AE80026CD09 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8464902725E142280026CD09 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8464902A25E144CC0026CD09 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8464902D25E145200026CD09 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		8464903725E1487D0026CD09 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		8464904025E155A00026CD09 /* ServerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerHandler.swift; sourceTree = "<group>"; };
+		8464904425E1608E0026CD09 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		8464904725E16AF70026CD09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8464905225E17F640026CD09 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DADCAF12B3214B3E1F99717 /* Pods_APITest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +61,8 @@
 			children = (
 				8464900F25E136410026CD09 /* APITest */,
 				8464900E25E136410026CD09 /* Products */,
+				86E40027CF7A5C46F8494859 /* Pods */,
+				C10E75AE0B9E7F37AF39980D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +77,10 @@
 		8464900F25E136410026CD09 /* APITest */ = {
 			isa = PBXGroup;
 			children = (
+				8464902325E13A190026CD09 /* Utils */,
+				8464902225E13A110026CD09 /* Models */,
+				8464902125E138A30026CD09 /* ViewModels */,
+				8464902025E138940026CD09 /* Views */,
 				8464901025E136410026CD09 /* APITestApp.swift */,
 				8464901225E136410026CD09 /* ContentView.swift */,
 				8464901425E136440026CD09 /* Assets.xcassets */,
@@ -69,6 +98,60 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8464902025E138940026CD09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8464902725E142280026CD09 /* ProfileView.swift */,
+				8464904725E16AF70026CD09 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8464902125E138A30026CD09 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8464902A25E144CC0026CD09 /* LoginViewModel.swift */,
+				8464904425E1608E0026CD09 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8464902225E13A110026CD09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8464902D25E145200026CD09 /* LoginResponse.swift */,
+				8464903725E1487D0026CD09 /* History.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8464902325E13A190026CD09 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8464902425E13AE80026CD09 /* Theme.swift */,
+				8464904025E155A00026CD09 /* ServerHandler.swift */,
+				8464905225E17F640026CD09 /* UserSettings.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		86E40027CF7A5C46F8494859 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7933F5720CD012956AAB511B /* Pods-APITest.debug.xcconfig */,
+				37491B5130FBB9F5D2B617A7 /* Pods-APITest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C10E75AE0B9E7F37AF39980D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11854D2F452411C488A9920A /* Pods_APITest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8464901C25E136450026CD09 /* Build configuration list for PBXNativeTarget "APITest" */;
 			buildPhases = (
+				38DB054EE65B6D5EBE794328 /* [CP] Check Pods Manifest.lock */,
 				8464900925E136410026CD09 /* Sources */,
 				8464900A25E136410026CD09 /* Frameworks */,
 				8464900B25E136410026CD09 /* Resources */,
+				63346855529299F6C43DC58D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +218,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38DB054EE65B6D5EBE794328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APITest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63346855529299F6C43DC58D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APITest/Pods-APITest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APITest/Pods-APITest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APITest/Pods-APITest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8464900925E136410026CD09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8464902825E142280026CD09 /* ProfileView.swift in Sources */,
+				8464902525E13AE80026CD09 /* Theme.swift in Sources */,
+				8464902E25E145200026CD09 /* LoginResponse.swift in Sources */,
+				8464904525E1608E0026CD09 /* ProfileViewModel.swift in Sources */,
+				8464904125E155A00026CD09 /* ServerHandler.swift in Sources */,
+				8464903825E1487D0026CD09 /* History.swift in Sources */,
 				8464901325E136410026CD09 /* ContentView.swift in Sources */,
+				8464902B25E144CC0026CD09 /* LoginViewModel.swift in Sources */,
+				8464904825E16AF70026CD09 /* LoginView.swift in Sources */,
 				8464901125E136410026CD09 /* APITestApp.swift in Sources */,
+				8464905325E17F640026CD09 /* UserSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +400,7 @@
 		};
 		8464901D25E136450026CD09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7933F5720CD012956AAB511B /* Pods-APITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +423,7 @@
 		};
 		8464901E25E136450026CD09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37491B5130FBB9F5D2B617A7 /* Pods-APITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

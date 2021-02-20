@@ -8,10 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var settings: UserSettings
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if settings.token != ""{
+            return AnyView(ProfileView(token: settings.token ))
+        }else {
+            return AnyView(LoginView())
+        }
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
